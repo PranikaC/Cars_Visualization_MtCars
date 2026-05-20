@@ -174,7 +174,7 @@ The same histogram code produces very different plots depending on whether `cyl`
 
 ---
 
-# Results Interpretation
+# Demonstration & Applications
 
 The project demonstrates how a small EDA notebook can teach a transferable lesson: encoding choices, not just plot type, drive what a visualization communicates.
 
