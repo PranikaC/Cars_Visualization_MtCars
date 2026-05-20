@@ -32,7 +32,7 @@ flowchart TD
     C --> D[Convert Grouping Variables to Categorical]
     D --> E[Build plotnine Visualizations]
     E --> F[Compare Categorical vs Continuous Encodings]
-    F --> G[Document Visual Findings]
+    F --> G[Document Visual takeaways]
 ```
 
 ---
@@ -86,7 +86,7 @@ This is an exploratory analysis project, not a modeling project.
 
 # Exploratory Data Analysis (EDA)
 
-### Key Insights
+### Key Findings
 - Manual cars (`am = 1`) post a higher median `mpg` and a wider spread than automatics
 - Low-cylinder cars cluster in the high-mpg / low-hp region; 8-cylinder cars sit in the high-hp / low-mpg corner
 - Heavier cars get fewer miles per gallon, and engine displacement scales with weight — the bubbles drift down-right as size grows
