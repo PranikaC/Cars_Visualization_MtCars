@@ -32,7 +32,7 @@ flowchart TD
     C --> D[Convert Grouping Variables to Categorical]
     D --> E[Build plotnine Visualizations]
     E --> F[Compare Categorical vs Continuous Encodings]
-    F --> G[Document Visual Insights]
+    F --> G[Document Visual Findings]
 ```
 
 ---
