@@ -144,19 +144,19 @@ flowchart LR
 
 Casting `am` to a string treats transmission as a category and lets `geom_boxplot` produce a clean two-group comparison. Manual cars (`am = 1`) post a noticeably higher median `mpg` and a wider spread than automatics.
 
-<img src="boxplot-mpg-by-transmission.png" alt="Boxplot of MPG by transmission" width="500">
+<img src="images/boxplot-mpg-by-transmission.png" alt="Boxplot of MPG by transmission" width="500">
 
 ### MPG vs Horsepower, Colored by Cylinder Count
 
 A scatterplot with `cyl` mapped to color makes the joint relationship visible: low-cylinder cars cluster in the high-mpg / low-hp region, while 8-cylinder cars sit in the high-hp / low-mpg region.
 
-<img src="scatter-mpg-hp-cyl.png" alt="Scatterplot of MPG vs HP by cylinders" width="500">
+<img src="images/scatter-mpg-hp-cyl.png" alt="Scatterplot of MPG vs HP by cylinders" width="500">
 
 ### Weight, MPG, and Displacement
 
 A bubble plot encodes a third variable through point size. Heavier cars get fewer miles per gallon, and displacement scales with weight — the bubbles grow as the points drift down-right.
 
-<img src="bubble-weight-mpg-disp.png" alt="Bubble plot of weight, MPG, and displacement" width="500">
+<img src="images/bubble-weight-mpg-disp.png" alt="Bubble plot of weight, MPG, and displacement" width="500">
 
 ### Why Variable Types Matter
 
@@ -164,7 +164,7 @@ The same histogram code produces very different plots depending on whether `cyl`
 
 | Categorical `cyl` | Continuous `cyl` |
 | --- | --- |
-| <img src="histogram-cyl-categorical.png" alt="Histogram with categorical cyl" width="350"> | <img src="histogram-cyl-continuous.png" alt="Histogram with continuous cyl" width="350"> |
+| <img src="images/histogram-cyl-categorical.png" alt="Histogram with categorical cyl" width="350"> | <img src="histogram-cyl-continuous.png" alt="Histogram with continuous cyl" width="350"> |
 
 ### Key Findings
 - Treating `cyl`, `am`, `gear`, and `carb` as categorical values makes grouped plots easier to interpret
