@@ -124,7 +124,7 @@ flowchart LR
     A --> C[Color-Mapped Scatter]
     A --> D[Size-Mapped Bubble]
     A --> E[Histogram Pair: Category vs Continuous]
-    B --> F[Insight Summary]
+    B --> F[Takeaway Summary]
     C --> F
     D --> F
     E --> F
@@ -174,7 +174,7 @@ The same histogram code produces very different plots depending on whether `cyl`
 
 ---
 
-# Insight Interpretation
+# Results Interpretation
 
 The project demonstrates how a small EDA notebook can teach a transferable lesson: encoding choices, not just plot type, drive what a visualization communicates.
 
